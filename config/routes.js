@@ -34,6 +34,11 @@ module.exports.routes = {
 
   '/': {
     view: 'index'
+  },
+
+  '/user/new': {
+    controllers: 'UserController',
+    action: 'new'
   }
 
   /***************************************************************************
